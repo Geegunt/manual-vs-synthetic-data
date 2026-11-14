@@ -1,0 +1,22 @@
+.DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Большие и потенциально чувствительные материалы
+data/text/
+data/images/
+annotations/roma/
+annotations/gleb/
+annotations/agreed/
+
+# Модели и архивы
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.pkl

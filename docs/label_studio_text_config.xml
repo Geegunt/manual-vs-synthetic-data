@@ -1,0 +1,10 @@
+<View>
+  <Header value="$id" />
+  <Text name="complaint" value="$complaint" />
+  <Choices name="product" toName="complaint" choice="single" showInLine="false">
+    <Choice value="Debt collection" />
+    <Choice value="Mortgage" />
+    <Choice value="Checking or savings account" />
+    <Choice value="Credit card" />
+  </Choices>
+</View>
