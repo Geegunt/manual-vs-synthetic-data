@@ -1,0 +1,14 @@
+<View>
+  <Header value="Обведите все видимые поля этикетки. Подробные правила — в codebook.md." />
+  <RectangleLabels name="label" toName="image" choice="single" canRotate="false" opacity="0.15">
+    <Label value="Maker-Name" background="#355C7D" hotkey="1"
+           hint="Производитель или бренд: полный текстовый блок названия." />
+    <Label value="Distinct Logo" background="#D68135" hotkey="2"
+           hint="Отдельная эмблема, монограмма или самостоятельная иллюстрация." />
+    <Label value="TypeWine Type" background="#519872" hotkey="3"
+           hint="Сорт винограда или явный тип вина, например Chardonnay или Red Wine." />
+    <Label value="Appellation AOC DOC AVARegion" background="#A65C7A" hotkey="4"
+           hint="Регион происхождения вина. Страна и адрес производителя сами по себе не подходят." />
+  </RectangleLabels>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="false" />
+</View>
