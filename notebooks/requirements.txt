@@ -1,0 +1,7 @@
+numpy
+pandas>=2.0
+matplotlib
+Pillow
+PyYAML
+pyarrow
+jupyterlab
